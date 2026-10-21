@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kartu Keluarga</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            color: #000;
+        }
+
+        .header-kk {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header-kk h2 {
+            margin: 5px 0;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        .info-kk {
+            width: 100%;
+            margin-bottom: 15px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .info-kk td {
+            padding: 3px 5px;
+            vertical-align: top;
+        }
+
+        table.tabel-kk {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 11px;
+            margin-bottom: 20px;
+        }
+
+        table.tabel-kk th, table.tabel-kk td {
+            border: 1px solid #000;
+            padding: 5px 3px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        table.tabel-kk th {
+            background-color: #f2f2f2;
+        }
+
+        .text-left {
+            text-align: left !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Kartu Keluarga -->
+    <div class="header-kk">
+        <h2>KARTU KELUARGA</h2>
+        <p style="margin: 0; font-weight: bold; font-size: 14px;">No. 3502010101010001</p>
+    </div>
+
+    <!-- Informasi Kepala Keluarga & Alamat -->
+    <table class="info-kk">
+        <tr>
+            <td width="18%">Nama Kepala Keluarga</td>
+            <td width="32%">: SURANI</td>
+            <td width="18%">Desa/Kelurahan</td>
+            <td width="32%">: Pangkal</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:RT 02/RW 06</td>
+            <td>Kecamatan</td>
+            <td>: Sawoo</td>
+        </tr>
+        <tr>
+            <td>RT/RW</td>
+            <td>: 001/001</td>
+            <td>Kabupaten/Kota</td>
+            <td>: PONOROGO</td>
+        </tr>
+        <tr>
+            <td>Kode Pos</td>
+            <td>: 63400</td>
+            <td>Provinsi</td>
+            <td>: JAWA TIMUR</td>
+        </tr>
+    </table>
+
+    <!-- Tabel Data Anggota Keluarga -->
+    <table class="tabel-kk">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Lengkap</th>
+                <th>NIK</th>
+                <th>Jenis Kelamin</th>
+                <th>Tempat Lahir</th>
+                <th>Tanggal Lahir</th>
+                <th>Agama</th>
+                <th>Pendidikan</th>
+                <th>Jenis Pekerjaan</th>
+            </tr>
+            <tr>
+                <th>(1)</th>
+                <th>(2)</th>
+                <th>(3)</th>
+                <th>(4)</th>
+                <th>(5)</th>
+                <th>(6)</th>
+                <th>(7)</th>
+                <th>(8)</th>
+                <th>(9)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 1. Ayah / Kepala Keluarga -->
+            <tr>
+                <td>1</td>
+                <td class="text-left">SURANI</td>
+                <td>3502000000000001</td>
+                <td>LAKI-LAKI</td>
+                <td>PONOROGO</td>
+                <td>01-01-1980</td>
+                <td>ISLAM</td>
+                <td>TAMAT SLTA / SEDERAJAT</td>
+                <td>WIRASWASTA</td>
+            </tr>
+            <!-- 2. Ibu / Istri -->
+            <tr>
+                <td>2</td>
+                <td class="text-left">ANIK SURYATI</td>
+                <td>3502000000000002</td>
+                <td>PEREMPUAN</td>
+                <td>PONOROGO</td>
+                <td>02-02-1983</td>
+                <td>ISLAM</td>
+                <td>TAMAT SLTA / SEDERAJAT</td>
+                <td>URUSAN RUMAH TANGGA</td>
+            </tr>
+            <!-- 3. Kakak / Anak 1 -->
+            <tr>
+                <td>3</td>
+                <td class="text-left">NABILA ATHA NUR AL FIYAH</td>
+                <td>3502000000000003</td>
+                <td>PEREMPUAN</td>
+                <td>PONOROGO</td>
+                <td>03-03-2008</td>
+                <td>ISLAM</td>
+                <td>SLTA / SEDERAJAT</td>
+                <td>PELAJAR / MAHASISWA</td>
+            </tr>
+            <!-- 4. Adik / Anak 2 -->
+            <tr>
+                <td>4</td>
+                <td class="text-left">IKBAL AHMAD ALFARIZI</td>
+                <td>3502000000000004</td>
+                <td>LAKI-LAKI</td>
+                <td>PONOROGO</td>
+                <td>04-04-2015</td>
+                <td>ISLAM</td>
+                <td>SD / SEDERAJAT</td>
+                <td>PELAJAR / MAHASISWA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tabel Status Hubungan Keluarga & Nama Orang Tua -->
+    <table class="tabel-kk">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Status Perkawinan</th>
+                <th>Status Hubungan Dalam Keluarga</th>
+                <th>Kewarganegaraan</th>
+                <th>Nama Orang Tua Ayah</th>
+                <th>Nama Orang Tua Ibu</th>
+            </tr>
+            <tr>
+                <th>(1)</th>
+                <th>(10)</th>
+                <th>(11)</th>
+                <th>(12)</th>
+                <th>(13)</th>
+                <th>(14)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>KAWIN</td>
+                <td>KEPALA KELUARGA</td>
+                <td>WNI</td>
+                <td>KAKEK</td>
+                <td>NENEK</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>KAWIN</td>
+                <td>ISTRI</td>
+                <td>WNI</td>
+                <td>KAKEK</td>
+                <td>NENEK</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>KAWIN</td>
+                <td>ANAK</td>
+                <td>WNI</td>
+                <td>SURANI</td>
+                <td>ANIK SURYATI</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>KAWIN</td>
+                <td>ANAK</td>
+                <td>WNI</td>
+                <td>SURANI</td>
+                <td>ANIK SURYATI</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
